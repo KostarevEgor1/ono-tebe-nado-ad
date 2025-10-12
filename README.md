@@ -1,1 +1,1 @@
-https://github.com/KostarevEgor1/ono-tebe-nado-ad#
+https://github.com/KostarevEgor1/ono-tebe-nado-ad
