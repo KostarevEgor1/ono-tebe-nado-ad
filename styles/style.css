@@ -5,25 +5,23 @@ body {
 
 .header,
 .footer {
-    padding: 92px 50px;
+    padding: 0px 50px;
     margin: 0 auto;
     max-width: 1100px;
 }
 
-/* Header */
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     font-size: 18px;
+    height: 293px;
 }
 
 .header__links-list {
     display: flex;
     gap: 32px;
     list-style: circle;
-    margin: 0;
-    padding: 0;
 }
 
 .header__links-list-item_no-bullit {
@@ -62,13 +60,13 @@ body {
     color: #000;
 }
 
-/* Cover */
 .cover {
     position: relative;
     background: url('../images/cover.jpg') center/cover no-repeat;
     padding: 165px 50px 50px;
     margin: 0 auto;
     max-width: 1100px;
+    height: 757px;
 }
 
 .overlay {
@@ -87,37 +85,30 @@ body {
     line-height: 1.15;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    margin: 0;
 }
 
 .aligned-text {
     display: block;
+    position: relative;
 }
 
 .aligned-text_center {
     text-align: center;
-    margin: 0 60px 0 0;
+    margin: 20px 0 0 15px;
 }
 
 .aligned-text_right {
     text-align: right;
-}
-
-.letter-spacing-extended {
-    letter-spacing: 0.6em;
-}
-
-.no-letter-spacing {
-    letter-spacing: 0;
+    margin: 30px 0 0 30px;
 }
 
 .cover__description {
     position: relative;
     z-index: 2;
     display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 78px;
+    justify-content: space-between;
+    align-items: end;
+    gap: 10px;
     margin-top: 135px;
 }
 
@@ -127,7 +118,6 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     word-spacing: 18px;
-    margin: 0;
 }
 
 .bet-button {
@@ -141,10 +131,9 @@ body {
     font-family: Raleway, sans-serif;
 }
 
-/* Lots */
 .lots {
-    padding: 180px 50px;
-    margin: 0 auto;
+    padding: 180px 83px;
+    margin: 180 auto 0 auto;
     max-width: 1100px;
 }
 
@@ -164,8 +153,7 @@ body {
 }
 
 .lots__card-list-item {
-    flex: 1;
-    min-height: 450px;
+    min-height: 600px;
     min-width: 350px;
 }
 
@@ -223,7 +211,6 @@ body {
     color: #000;
 }
 
-/* About */
 .about {
     padding: 180px 50px;
     margin: 0 auto;
@@ -274,7 +261,6 @@ body {
     margin-bottom: 0;
 }
 
-/* Footer */
 .footer {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
