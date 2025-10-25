@@ -87,13 +87,15 @@ body {
 }
 
 .aligned-text_center {
-    padding: 20px 0 0 0;
+    top: 20px;
+    left: 15px;
     text-align: center;
 }
 
 .aligned-text_right {
+    top: 40px;
+    left: 30px;
     text-align: right;
-    padding: 10px 0 20px 50px;
 }
 
 .cover__description {
@@ -116,8 +118,9 @@ body {
 .bet-button {
     position: relative;
     border: 1px solid #fff;
-    padding: 10px;
+    padding: 11px 33px;
     background: transparent;
+    top: 10px;
     color: #fff;
     font-size: 22px;
     text-transform: uppercase;
@@ -200,7 +203,7 @@ body {
 }
 
 .about {
-    margin: 150px auto 0 auto;
+    margin: 155px auto 0 auto;
     width: 1050px;
     height: 600px;
     display: grid;
@@ -252,7 +255,7 @@ body {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 180px 50px 0 50px;
+    padding: 145px 50px 0 50px;
     margin: 0 auto;
     max-width: 1100px;
     font-size: 18px;
